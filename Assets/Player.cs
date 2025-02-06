@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float velocity, jumpForce;
-    public Rigidbody2D rb;
-    public Animator animator;
+    private Rigidbody2D rb;
+    private Animator animator;
 
 
     void Start()
